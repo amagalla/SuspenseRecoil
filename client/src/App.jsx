@@ -17,7 +17,7 @@ function App() {
         <div>
           <h1 className="anime-title">Anime Watched List</h1>
         </div>
-        <div className="showList">
+        <div>
           <ShowList />
         </div>
         </RecoilRoot>
