@@ -1,4 +1,4 @@
-create .env file in root directory (if you use a database)
+create .env file in root directory
 
 npm install
 
