@@ -34,7 +34,7 @@ function ShowList() {
     return (
         <>
         <div className="showList">
-            <Suspense fallback={<p>Loading...</p>}>
+            <Suspense fallback={<div className="loading"></div>}>
                 <OutputShow />
             </Suspense>
         </div>
