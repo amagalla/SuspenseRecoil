@@ -1,4 +1,33 @@
-html {
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #144760;
+  }
+
+.anime-title {
     display: flex;
     justify-content: center;
+    color: white;
+    margin-top: 8em;
+}
+
+.showList {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.shows {
+    background-color: #e8e8e8;
+    border-radius: 4px;
+    margin-top: 1em;
+    padding: 5px;
+}
+
+.postList {
+    border: solid;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
 }

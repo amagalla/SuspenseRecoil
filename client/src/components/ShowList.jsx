@@ -1,7 +1,6 @@
 import React, { Suspense, useEffect } from 'react'
 import { getShowState } from "../recoil/todoState"
 import { useSetRecoilState } from 'recoil'
-// import OutputShow from "./OutputShow"
 
 function ShowList() {
     const getShow = useSetRecoilState(getShowState)
